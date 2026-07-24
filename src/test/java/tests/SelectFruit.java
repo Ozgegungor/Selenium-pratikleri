@@ -11,6 +11,7 @@ import java.util.List;
 public class SelectFruit {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
+        // DİKKAT: Aşağıdaki adresi kendi bilgisayarınızdaki index1.html dosyasının yolu ile değiştirin.
         driver.get("file:///C:/Users/ozge.gungor/Desktop/html/index1.html");
 
         WebElement fruitDropDown = driver.findElement(By.id("fruits"));
